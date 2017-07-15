@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box !important;
+}
+
+.navbar-default,
+.jumbotron {
+    font-family: Montserrat, Arial, sans-serif !important;
+}
+#about,
+#our-values,
+#services,
+#portfolio,
+#pricing,
+#contact {
+    font-family: Lato, Arial, sans-serif !important;
+}
+
+
+.navbar-default {
+    background-color: #f4511e !important;
+    border: 0 !important;
+    letter-spacing: 4px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.navbar-header button {
+    border: 0 !important;
+}
+.navbar-default a {
+    color: white !important;
+}
+.navbar-right a {
+    font-size: 12px;
+}
+.navbar-nav li a:focus,
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: white !important;
+}
+.jumbotron {
+    color: white !important;
+    background-color: #f4511e !important;
+    padding: 100px 25px !important;
+}
+.jumbotron p {
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+#about {
+    padding: 60px 50px;
+}
+#about h2,
+#our-values h2,
+#services h2,
+#portfolio h2,
+#pricing h2,
+#contact h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+#about h3,
+#our-values h3,
+#services h3,
+#services h4,
+#portfolio h3 {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+#about h3,
+#our-values h3 {
+   padding: 47px 0;
+}
+
+#about p,
+#our-values p,
+#services p {
+    color: #818181;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 37px;
+}
+#about span,
+#our-values span {
+    font-size: 200px;
+}
+#about span,
+#our-values span,
+#services span{
+    color: #f4511e;
+}
+
+#our-values,
+#portfolio,
+#contact {
+    background-color: #f6f6f6;
+   }
+#our-values {
+    padding: 60px 50px 33px;
+}
+#services {
+    padding: 60px 50px 6px;
+}
+#services h3 {
+    padding: 10px 0 47px;
+}
+#services h4 {
+    padding: 3px 0 20px;
+}
+#services span {
+    font-size: 50px;
+}
+#services div:first-child {
+    margin-bottom: 27px;
+}
+#portfolio {
+    padding: 60px 50px;
+}
+#portfolio h3 {
+    padding: 47px 0 20px;
+}
+#portfolio .thumbnail {
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    padding: 0 0 15px;
+    font-size: 15px;
+    color: #818181;
+
+}
+#portfolio .thumbnail img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+#portfolio div:first-child {
+    margin-bottom: 23px;
+}
+#portfolio #myCarousel p {
+    margin: 68px 0 67px;
+    font-size: 19px;
+    font-style: italic;
+    color: black;
+    line-height: 1.375;
+}
+#portfolio #what-our-customers-say {
+   margin-bottom: 33px !important;
+}
+#portfolio #myCarousel span {
+    font-style: normal;
+}
+#portfolio #myCarousel .carousel-indicators li {
+    border: 1px solid #f4511e;
+    padding-top: 0;
+    margin-top: 0;
+}
+#portfolio #myCarousel .carousel-indicators li.active {
+    background-color: #f4511e !important;
+}
+#portfolio #myCarousel .left,
+#portfolio #myCarousel .right {
+    background-image: none;
+    color: #f4511e;
+}
+#pricing {
+    padding: 60px 50px;
+}
+#pricing h5 {
+    padding: 23px 0;
+    font-size: 19px;
+}
+#pricing .panel-default {
+    border: 1px solid #f4511e;
+    border-radius: 0;
+    background-color: white;
+    transition: box-shadow 0.5s;
+}
+#pricing .panel:hover {
+    box-shadow: 5px 0 40px rgba(0,0,0, .2);
+}
+#pricing .panel-heading {
+    background-color: #f4511e;
+    color: white;
+}
+#pricing .panel-heading h3 {
+    padding:15px 0;
+    font-size: 36px;
+}
+#pricing .panel-body,
+#pricing .panel-footer {
+    color: #818181;
+}
+#pricing .panel-body {
+    font-size: 15px;
+    line-height: 1.8;
+}
+#pricing .panel-footer {
+    background-color: white;
+}
+#pricing .panel-footer h3 {
+    font-size: 32px;
+}
+#pricing .panel-footer p {
+    color: #aaa;
+}
+#pricing .panel-footer button {
+    background-color: #f4511e;
+    color: white;
+    margin: 35px 0 15px;
+}
+#contact {
+    padding: 50px 50px 75px;
+}
+#contact h2 {
+    padding: 10px 0 20px;
+}
+.contacts p {
+    color: #818181;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.forms button {
+    margin-top: 27px;
+}
+.footer {
+    padding: 55px 50px 60px;
+}
+.footer span {
+    color: #f4511e;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.footer p {
+    color: #818181;
+    font-size: 15px;
+}
+.slideanim {
+    visibility: hidden;
+}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@media  (max-width: 768px) {
+    .btn-lg {
+        width: 100%;
+    }
+    #about .col-sm-4 {
+        text-align: center;
+        padding: 60px 0 28px;
+    }
+    #our-values .col-sm-4 {
+        text-align: center;
+        padding: 25px 0 8px;
+    }
+    .logo-block-1 .col-sm-4 p,
+    .logo-block-2 .col-sm-4 p {
+      margin-bottom: 8px !important;
+    }
+    .logo-block-1 div:first-child,
+    .logo-block-2 div:first-child {
+        margin-bottom: 25px!important;
+    }
+    .logo-block-1 div:nth-child(2),
+    .logo-block-2 div:nth-child(2) {
+        padding-bottom: 17px!important;
+    }
+    .logo-block-1 {
+        margin-top: 35px;
+        margin-bottom: 96px;
+    }
+    .logo-block-2 {
+        margin-bottom: 70px;
+    }
+    #portfolio h3 {
+        padding-bottom: 45px;
+    }
+    #portfolio #what-our-customers-say {
+        padding-top: 30px;
+    }
+    #pricing .panel-default {
+        margin: 25px 0 70px;
+    }
+}
+@media (max-width: 480px) {
+    .logo {
+        font-size: 150px !important;
+    }
+}
